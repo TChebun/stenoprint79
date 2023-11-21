@@ -1,0 +1,14 @@
+@import "./fonts";
+@import "./vars";
+@import "./extends";
+
+body {
+  font-family: "GR", sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+  color: $txt;
+}
+
+main {
+  @extend %p;
+}
