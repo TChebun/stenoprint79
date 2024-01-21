@@ -1,0 +1,32 @@
+.task__container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    &-item {
+        padding: 50px 40px 40px 40px;
+        border-radius: 30px;
+        background-color: $bg;
+        width: 350px;
+        height: 433px;
+        
+
+        img {
+            border-radius: 100px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-family: 'GS';
+            margin-bottom: 20px;
+        }
+
+        p {
+            width: 270px;
+            line-height: 22.4px;
+            color: $txt2;
+        }
+    }
+}
