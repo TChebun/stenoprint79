@@ -1,0 +1,36 @@
+.about {
+    width: 1430px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    &__container {
+        display: flex;
+        gap: 200px;
+        
+        &-title {
+            h2 {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 52px;
+                width: 400px;
+            }
+        }
+
+        &-link {
+            display: flex;
+            gap: 10px;
+            
+            a {
+                font-family: 'GS';
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: -25px;
+                font-size: 30px;
+                font-weight: 100;
+            }
+        }
+    }
+}
