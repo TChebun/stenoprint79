@@ -18,11 +18,7 @@ $(document).ready(function () {
 
  
 function newsApi() { 
-  fetch("https://api.spaceflightnewsapi.net/v4/docs/#/articles/articles_list", { 
-    headers: { 
-      mode: "no-cors"
-    } 
-  }) 
+  fetch("https://api.spaceflightnewsapi.net/v4/docs/#/articles/articles_list") 
   .then((response) => response.json()) 
   .then((response) => console.log(response)) 
   .catch((error) => { 
