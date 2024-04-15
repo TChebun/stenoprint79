@@ -20,7 +20,8 @@ $(document).ready(function () {
 function newsApi() { 
   fetch("https://ok.surf/api/v1/news-feed", { 
     headers: { 
-      "Accept": "application/json", 
+      "Accept": "application/json",
+      mode: "no-cors"
     } 
   }) 
   .then((response) => response.json()) 
