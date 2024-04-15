@@ -15,3 +15,20 @@ $(document).ready(function () {
     ],
   });
 });
+
+ 
+function newsApi() { 
+  fetch("https://ok.surf/api/v1/news-feed", { 
+    method: "GET", 
+    headers: { 
+      "Content-Type": "application/json", 
+    }, 
+    mode: "no-cors", 
+  }) 
+  .then((response) => response.json()) 
+  .then((response) => console.log(response)) 
+  .catch((error) => { 
+    console.log(error); 
+  }) 
+} 
+newsApi();
