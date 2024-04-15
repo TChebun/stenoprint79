@@ -18,9 +18,8 @@ $(document).ready(function () {
 
  
 function newsApi() { 
-  fetch("https://ok.surf/api/v1/news-feed", { 
+  fetch("https://api.spaceflightnewsapi.net/v4/docs/#/articles/articles_list", { 
     headers: { 
-      "Accept": "application/json",
       mode: "no-cors"
     } 
   }) 
